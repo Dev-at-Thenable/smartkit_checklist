@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000100101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="true" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00000100101" font="Lato" controllayout="npnxnanbsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100101" font="Lato" controllayout="pxabnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="npxnabnsnfns00000100101" font="Lato" controllayout="npxnabnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="npnxnanbnsnfns00000100101" font="Lato" controllayout="npnxnanbnsnfns00000100101" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+    <layout name="pxabnsnfns00000100100" font="Lato" controllayout="pxabnsnfns00000100100" colorscheme="npnxnanbnsnfns00000100101" string_table="npnxnanbnsnfns00000100101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Check je MetaFrame" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true" />
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000100101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000100100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000100101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000100101">
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="acc_search_input">search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="acc_video_transcript_list">Transcript</string>
+      <string id="acc_visited">visited</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_window_options">Options</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Background audio</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="closed_captions">Captions</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="filter">Filter</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="glossary">Glossary</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next">NEXT</string>
+      <string id="next_shortcut">Next</string>
+      <string id="outline">Menu</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="prev">PREV</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="search_toggle">Search</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="submit">SUBMIT</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="terms">Terms</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="transcript">Notes</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="continue">Continue</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6ihgsZnfBd3" displaytext="MetaFrame" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ihgsZnfBd3.6ZIr905SMRi" displaytext="Selecteer het onderdeel" expand="false" type="slide" />
+            <slidelink slideid="_player.6ihgsZnfBd3.5sRRDUgioA4" displaytext="Dashboard" expand="false" type="slide" />
+            <slidelink slideid="_player.6ihgsZnfBd3.5o9OkYJVYSD" displaytext="Staafjes" expand="false" type="slide" />
+            <slidelink slideid="_player.6ihgsZnfBd3.5kGIUthCmio" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6ihgsZnfBd3.5uSLwnbZZBa" displaytext="Intro" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ngnN3pZrW4" displaytext="Doelgroepen" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ngnN3pZrW4.6CGgQVYm7yL" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6NxpLQqSnqw" displaytext="Heeft uw organisatie haar primaire doelgroepen vastgesteld?&#xA;Primaire doelgroepen zijn de potentiële klanten (belangrijkste groepen mensen of bedrijven) waarop uw organisatie zich richt met haar producten of diensten." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.5tr6ALlcvQK" displaytext="Hoeveel primaire doelgroepen heeft uw organisatie vastgesteld?&#xA;Dit verwijst naar het aantal verschillende groepen klanten waarop uw organisatie zich richt. Opgelet: meer is niet noodzakelijkerwijs beter." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6jKpy4xlvVg" displaytext="Zijn uw doelgroepen duidelijk en volledig omschreven in een zogenaamde doelgroepdefinitie?&#xA;Uw beschrijving moet een aantal aspecten bevatten, zoals bijvoorbeeld: wie zijn ze, waar bevinden ze zich, wat is hun omvang, wat is hun budget/koopkracht, en hoe sluit uw aanbod daarop aan?" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6JKGxawlEFW" displaytext="Wordt deze doelgroepdefinitie intern gecommuniceerd?&#xA;Staat uw doelgroepdefinitie leesbaar ter beschikking van medewerkers binnen uw organisatie?" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6rawCLXakdD" displaytext="Wordt deze doelgroepdefinitie gebruikt om gerichte marketingcampagnes of verkoopsactiviteiten te sturen?&#xA;Gebruikt uw verkoopsorganisatie de beschrijvingen van de doelgroepen om specifieke marketing- of verkoopstrategieën te ontwikkelen, zoals bvb uw salespitch, website inhoud, enz." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6DBbD9SoW5w" displaytext="Maakt u gebruik van data (CRM, enquêtes, website-analyse) om uw doelgroepen (verder) te segmenteren?&#xA;Segmenteren betekent het opdelen van uw doelgroepen in kleinere groepen op basis van bepaalde kenmerken. CRM staat voor Customer Relationship Management, een proces en/of systeem dat klantgegevens beheert." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6jT4dBvZl8w" displaytext="Zijn er specifieke kenmerken (zoals winstgevendheid, complexiteit, behoeften) bepaald voor elke doelgroep?&#xA;Heeft uw organisatie specifieke eigenschappen vastgesteld voor elke doelgroep, zoals hoe winstgevend hij is of welke specifieke behoeften hij heeft. Typisch worden deze opgesteld vanuit de nood/wens van uw eigen organisatie." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6rmTBuE5z76" displaytext="Worden subdoelgroepen binnen uw primaire doelgroepen verder gedefinieerd en marketing-technisch geprioritiseerd?&#xA;Subdoelgroepen zijn kleinere groepen binnen uw primaire doelgroepen die specifieke kenmerken of behoeften hebben." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.5yrcWnBr8WR" displaytext="Hoe vaak herzien jullie de doelgroepdefinitie?&#xA;Herzien betekent het opnieuw bekijken en bijwerken van de beschrijvingen van uw doelgroepen, rekening houdende met eventuele evoluties in uw markt, eigen organisatie, ..." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6MPrtCS6Cbw" displaytext="Hoe vaak worden marketingcampagnes geëvalueerd op basis van de doelgroepdefinitie?&#xA;Evalueren betekent het beoordelen van de effectiviteit van marketingcampagnes door te kijken of ze goed aansluiten bij de beschrijvingen van de doelgroepen en bij uitbreiding dus ook rendabel(er) zijn." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.5ZtyYFz6veA" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.5VBxlEwbmCv" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6EeKjrepSQd" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngnN3pZrW4.6rLbD1EV8ty" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6bjnRRHlxok" displaytext="IT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6bjnRRHlxok.5mhNKbN9t46" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6KpXon5Nqi1" displaytext="Beschikt je organisatie over een IT afdeling?&#xA;We willen weten of er een formele, aparte IT-afdeling bestaat of dat IT-taken geïntegreerd worden in andere rollen (bijvoorbeeld bij de bedrijfsleiding of algemene medewerkers). &#xA;Dit onderscheid is belangrijk, omdat het invloed heeft op de manier waarop IT en business samenwerken en hoe de vragen in de rest van de vragenlijst geïnterpreteerd moeten worden. &#xA;Organisaties met een aparte IT-afdeling hebben vaak meer gespecialiseerde processen en structuren, terwijl bij organisaties zonder deze afdeling de IT-functie vaak een andere, geïntegreerde invulling kent.	" expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6T3g76mB36q" displaytext="Hoe is de IT-functie geïntegreerd in de dagelijkse bedrijfsvoering binnen uw organisatie?&#xA;Wanneer IT geen aparte afdeling is, is het belangrijk dat de IT-functionaliteit toch effectief verweven is in alle dagelijkse activiteiten, zodat technologische ondersteuning geen losse factor blijft." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6VyGvWLfRob" displaytext="Op welke wijze worden IT-behoeften en -oplossingen besproken en bepaald door de bedrijfsleiding?&#xA;Ook zonder een aparte IT-afdeling moeten technologische vraagstukken structureel in de besluitvorming worden meegenomen om de strategische doelen te ondersteunen." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6hvbULWUZ5d" displaytext="Worden externe IT-partners of consultants betrokken bij strategische IT-beslissingen?&#xA;In organisaties zonder een eigen IT-afdeling kan de inzet van externe specialisten cruciaal zijn voor het realiseren van een professioneel IT-beleid dat aansluit op de bedrijfsstrategie." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6bqBtJ904Xa" displaytext="Hoe wordt gezorgd voor een goede afstemming tussen de IT-oplossingen en de algemene bedrijfsstrategie?&#xA;Ook wanneer IT geïntegreerd is in de bedrijfsvoering, is het van belang dat technologische keuzes en investeringen de overkoepelende strategische doelen ondersteunen en versterken." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.5vODMelUGYI" displaytext="Hoe effectief is de communicatie over IT-zaken tussen de bedrijfsleiding en eventuele externe IT-ondersteuning?&#xA;Heldere en frequente communicatie is essentieel om te zorgen dat IT-gerelateerde vraagstukken en oplossingen goed worden afgestemd tussen de bedrijfsleiding en externe IT-partners." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.5gospd9eGn1" displaytext="Hoe worden IT-investeringen en budgetten afgestemd op de strategische en operationele doelstellingen van de organisatie?&#xA;Zelfs zonder een aparte IT-afdeling is het belangrijk dat investeringen in technologie bijdragen aan de strategische groei en dagelijkse operaties, waarbij budgetten op een geïntegreerde wijze worden gepland." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6DePTxFkTxx" displaytext="Wordt de impact van geïmplementeerde IT-oplossingen gemeten en teruggekoppeld aan de bedrijfsresultaten?&#xA;Het meten van de effectiviteit van IT-oplossingen helpt om de bijdrage aan organisatiedoelen te evalueren en stimuleert continue verbetering." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6VQWzTProJR" displaytext="In hoeverre speelt technologische innovatie een rol bij het vormgeven van uw bedrijfsstrategie?&#xA;Innovatie kan een belangrijke drijfveer zijn voor groei en concurrentievermogen. Het is essentieel dat de organisatie actief investeert in en openstaat voor technologische vernieuwing." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6FJXbgSphvD" displaytext="Hoe wordt de IT-ondersteuning georganiseerd voor zowel dagelijkse operationele taken als voor strategische projecten?&#xA;Ook zonder een eigen IT-afdeling is het van belang dat de ondersteuning – al dan niet via externe partijen – goed georganiseerd is, zodat zowel routine- als strategische IT-behoeften adequaat worden ingevuld." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.5kB5QRdWT60" displaytext="Op welke wijze bespreekt en beheert de organisatie risico’s en kansen op het gebied van IT?&#xA;Zelfs bij een geïntegreerde IT-functie is het essentieel om risico’s en kansen rondom technologie systematisch te evalueren, zodat er tijdig passende maatregelen worden genomen." expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.5ZnmkFm4MAP" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6AHbWoLiYa8" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.5iP33IDZ0Uf" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.6bjnRRHlxok.6W3CvkMZzCK" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5wfA9re374j" displaytext="Aanbod" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5wfA9re374j.60fAuhrymZT" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6HLTaonwegO" displaytext="Is er een sjabloon opgesteld waarin elk product of elke dienstverlening wordt vastgelegd met relevante metadata voor het bedrijf?&#xA;Een goed gestructureerd sjabloon zorgt ervoor dat alle producten en diensten consistent worden beschreven met de juiste metadata, zoals bvb specificaties, handleidingen, prijszetting, opleiding, ..." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.67dHtr1a1I6" displaytext="Hebben uw producten/diensten een duidelijke meerwaarde (Unique Selling Points – USP’s)?&#xA;USP’s zijn de unieke voordelen van jouw aanbod ten opzichte van concurrenten." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6IDkcdWs6WX" displaytext="Wordt het aanbod systematisch geëvalueerd en verbeterd?&#xA;Dit betekent dat je je aanbod regelmatig herbekijkt en optimaliseert." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.5nJja9Bcbhe" displaytext="Heeft uw organisatie een duidelijke prijszettingsstrategie (al dan niet per product- of dienstverleningsgroep)?&#xA;Prijszetting bepaalt hoe je je producten of diensten in de markt zet en winstgevend blijft, en houdt daarnaast rekening met de perceived value om aan winstmaximalisatie te doen, zo gewenst." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.5iTZbWPO4nF" displaytext="Is het aanbod gedocumenteerd in een catalogus of PIM-systeem?&#xA;Een Product Information Management (PIM)-systeem helpt bij het structureren en beheren van je aanbod." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6rhVpSBt6vP" displaytext="Wordt klantfeedback structureel gebruikt om het aanbod te verbeteren?&#xA;Klantinzichten helpen bij het verfijnen en optimaliseren van je aanbod. Feedback wordt het best verzameld via enquêtes, interviews en data-analyse van klantgedrag. Idealiter gebeurt dit periodiek, bijvoorbeeld na aankoopmomenten of jaarlijks tijdens strategische evaluaties." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6oaPARIVpmg" displaytext="Zijn er duidelijke upselling- en cross-selling-strategieën binnen het aanbod?&#xA;Upselling is het verkopen van een duurder product/dienst, terwijl cross-selling andere aanvullende producten/diensten promoot." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.64EU3blbZKh" displaytext="Hoe vaak wordt het aanbod herzien op basis van marktontwikkelingen?&#xA;Een competitief aanbod evolueert immers mee met de markt." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.62q1pI3zcXm" displaytext="Is er een duidelijkheid rond de verantwoordelijkheid van het beheer van jullie aanbod?&#xA;Bevindt er zich binnen de organisatie een persoon of functie die als rol heeft het beheren en opvolgen van het aanbod?" expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6oWg7YmTOv8" displaytext="Hoeveel van de feitelijk verkochte producten en diensten komen overeen met het vastgelegde aanbod?&#xA;Een goed aanbod betekent dat de organisatie zich houdt aan haar vastgelegde producten en diensten, zonder te veel af te wijken naar opportunistische verkoop met mogelijke risico’s." expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6apZTOFb6aT" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.5lweyPwgkTY" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6gAFS8y7bdi" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.5wfA9re374j.6AnKrAnvdy8" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5yNVqc3JfT9" displaytext="Strategie" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5yNVqc3JfT9.6qJ33wUZpBH" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5aI0ncSRoRg" displaytext="Is er een gedocumenteerde bedrijfsstrategie?&#xA;De bedrijfsstrategie is vastgelegd en gebaseerd op de Missie, Visie, Aanbod en Doelgroepen. Zo sluit het plan aan bij de kern van de organisatie." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.60jwXVmuJN9" displaytext="Is de bedrijfsstrategie vertaald naar een concreet actieplan?&#xA;Een strategie moet omgezet worden in acties met duidelijke doelen en deadlines." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5xgUCpbfz9e" displaytext="Zijn verantwoordelijkheden per actie toegewezen?&#xA;Elke actie heeft een eigenaar die ervoor zorgt dat het uitgevoerd wordt." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.6Ur46AA4Fp7" displaytext="Worden de resultaten van strategische acties gemeten?&#xA;Meten is weten. Zonder meting is bijsturing onmogelijk." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5Wu2bQBF9Iq" displaytext="Wordt de strategie regelmatig geëvalueerd en zo nodig bijgestuurd?&#xA;Een strategie moet flexibel blijven en aangepast worden aan nieuwe inzichten, zeker ook binnen het kader van de visie." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5hoIss0XRfl" displaytext="Is de strategie duidelijk gecommuniceerd binnen de organisatie?&#xA;Medewerkers moeten de strategie begrijpen om ze uit te voeren." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5uQLI4B9hY9" displaytext="Zijn er middelen (tijd en budget) beschikbaar voor strategische acties?&#xA;Zonder voldoende middelen kunnen plannen niet worden uitgevoerd en komt mogelijks de Missie in gevaar." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5rep8VpXFUI" displaytext="Zijn er scenario’s voorbereid voor mogelijke crisissituaties?&#xA;Een sterke strategie houdt rekening met mogelijke problemen en risico’s." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5sFUqZCDmUI" displaytext="Zijn de prioriteiten binnen de strategie duidelijk bepaald?&#xA;Niet alle acties zijn even belangrijk. Focus en planmatige aanpak is essentieel." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5mKUl0recaO" displaytext="Is er een proces om feedback van stakeholders bij de juiste persoon te krijgen?&#xA;Feedback moet gestructureerd verwerkt worden en toegankelijk zijn binnen de organisatie. Relevante inzichten voor de strategie moeten systematisch beschikbaar worden gesteld aan de verantwoordelijken." expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.63nsHpYsfEH" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5xr8r3MMKTt" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5xScGCKXnDg" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNVqc3JfT9.5fmsBiLHYr5" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6cOrMuVmwOn" displaytext="Visie" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6cOrMuVmwOn.60YGsleCIxo" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6L0tlSiT3Jp" displaytext="Heeft uw organisatie een duidelijke visie geformuleerd?&#xA;De visie schetst de verwachte toekomstcontext waarin de organisatie haar missie wil realiseren. Ze helpt om trends en evoluties te voorspellen, hierop te anticiperen door gekoppelde strategieën (acties) en onderweg de organisatie bij te sturen om zo, op langere termijn, de vooropgestelde doelstellingen te behalen." expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.5lJyE9jqpyf" displaytext="Wordt de visie intern actief gecommuniceerd?&#xA;Een helder gecommuniceerde visie zorgt ervoor dat de hele organisatie en alle medewerkers, binnen hun respectieve functies en verantwoordelijkheden, zich voortdurend richten op het bijsturen en navigeren van het schip in de juiste richting om de missie succesvol te realiseren." expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.5jjEPqiGb41" displaytext="Wordt de visie gebruikt bij strategische beslissingen?&#xA;De visie moet een leidraad zijn voor belangrijke beslissingen binnen de organisatie." expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6nYn14eRcFK" displaytext="Is de visie meetbaar en zowel strategisch als operationeel bruikbaar?&#xA;Een visie moet concreet genoeg zijn om te vertalen naar strategische en operationele doelen. De acties die nodig zijn om de missie te vrijwaren, moeten meetbaar zijn om te beoordelen hoe goed ze hun doel bereiken. Alleen zo kan er gerichte bijsturing plaatsvinden. " expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6fV11tCmoIC" displaytext="Worden de kernwaarden bewaakt binnen de visie?&#xA;De visie moet niet alleen helpen bij het bereiken van de missie, maar ook zorgen dat kernwaarden worden gerespecteerd en niet opgeofferd." expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6R9XphnuAYh" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6BuFRHPGdBQ" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.68yoo6fwuai" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.6cOrMuVmwOn.6GrhWQ31cpP" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5cirhyX0dcl" displaytext="Missie" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5cirhyX0dcl.63mWCJoOij3" displaytext="Introductie" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6eSDmyr9qLr" displaytext="Heeft je organisatie een duidelijke en geformuleerde missie?&#xA;De missie is het kernstreven van je organisatie en moet helder, meetbaar en praktisch vertaalbaar zijn naar alle lagen van de organisatie." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.5zLNCKRlDnU" displaytext="Is de missie strategisch geïntegreerd in de besluitvorming?&#xA;De missie dient als leidraad voor strategische en operationele beslissingen binnen de organisatie. Het gaat hier dus over het actief toetsen van de Missie binnen het kader van van deze beslissingen. " expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6JqKV5f6kox" displaytext="Hoe goed begrijpen medewerkers de missie?&#xA;Medewerkers moeten de missie kennen en kunnen uitleggen hoe deze hun werk beïnvloedt." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6jnaqHW5R8X" displaytext="Wordt de missie intern en extern gecommuniceerd?&#xA;De missie wordt gecommuniceerd via de &amp;quot;Boodschap&amp;quot; en geïntegreerd in de bredere story van de organisatie. Door de missie hierin op te nemen, wordt gewaarborgd dat zij consequent wordt uitgedragen en breed wordt gedragen door medewerkers en stakeholders." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.5zk0jsMjfOK" displaytext="Is de missie meetbaar en concreet?&#xA;Een effectieve missie moet vertaald kunnen worden in concrete doelen en KPI’s." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.5krnXRIohA6" displaytext="Hoe vaak wordt de missie geëvalueerd en aangepast?&#xA;Herevaluatie van de missie betekent het periodiek beoordelen van haar relevantie en effectiviteit. Dit houdt rekening met veranderende marktomstandigheden, strategische doelen en de evoluerende wensen van de aandeelhouders. Een missie blijft slechts waardevol als ze aangepast wordt aan de actuele en toekomstige realiteit van de organisatie." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.63V166i9BcF" displaytext="Wordt de missie gebruikt als basis voor strategische groei?&#xA;Strategische groei is een plan van aanpak waarin feitelijke acties worden uitgevoerd om groei te realiseren, met de missie als ultieme doelstelling. De missie dient als leidraad om richting te geven aan strategische keuzes en operationele implementaties hieromtrent." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6FFjuAxGxpz" displaytext="Hoe sterk is de wens van de eigenaar(s) of aandeelhouders geïntegreerd in de missie?&#xA;De missie moet niet alleen een strategisch doel dienen, maar ook de visie en intenties van de eigenaar(s) of aandeelhouders weerspiegelen." expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6IxSwK3mJrF" displaytext="Hoe goed sluit de missie aan bij de dagelijkse werking?&#xA;De missie moet praktisch vertaald worden naar de operationele realiteit (organisatie, structuur, functie-invullingen, resources, ...)" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.5kfYRmnXD8u" displaytext="Wordt de missie gebruikt bij werving en employer branding?&#xA;Een sterke missie helpt bij het aantrekken en behouden van talent. Dit kan worden afgeleid uit verschillende signalen: staat de missie expliciet vermeld in vacatures? Wordt er tijdens aanwervingsgesprekken over gesproken? Wordt de missie benadrukt in interne onboardingprocessen of employer branding campagnes?" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6a4ZCA6JU2G" displaytext="Resultaat" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.6cKBrJZeibR" displaytext="Niet gedefinieerd" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.5lgUBjLdIfj" displaytext="Slecht" expand="false" type="slide" />
+            <slidelink slideid="_player.5cirhyX0dcl.69xL5PsPg4v" displaytext="Gemiddeld" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6qX3QqUhzR9" displaytext="Afbeeldoing voor rapport" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6qX3QqUhzR9.6cp7eMEjSl0" displaytext="Afbeeldingen voor rapport" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
