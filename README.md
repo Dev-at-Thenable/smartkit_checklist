@@ -1,2 +1,2 @@
 # smartkit_checklist
-Smartkit - sample Metaframe checklit
+Smartkit - sample Metaframe checklist
