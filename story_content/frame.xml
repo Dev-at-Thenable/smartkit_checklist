@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="Check je MetaFrame" />
+              <option name="title_text" value="Check je MetaFrame demo" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1558,9 +1558,6 @@
         <slidelink slideid="_player.6ihgsZnfBd3" displaytext="MetaFrame" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6ihgsZnfBd3.6ZIr905SMRi" displaytext="Selecteer het onderdeel" expand="false" type="slide" />
-            <slidelink slideid="_player.6ihgsZnfBd3.5sRRDUgioA4" displaytext="Dashboard" expand="false" type="slide" />
-            <slidelink slideid="_player.6ihgsZnfBd3.5o9OkYJVYSD" displaytext="Staafjes" expand="false" type="slide" />
-            <slidelink slideid="_player.6ihgsZnfBd3.5kGIUthCmio" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ihgsZnfBd3.5uSLwnbZZBa" displaytext="Intro" expand="false" type="slide" />
           </links>
         </slidelink>
@@ -1672,11 +1669,6 @@
             <slidelink slideid="_player.5cirhyX0dcl.6cKBrJZeibR" displaytext="Niet gedefinieerd" expand="false" type="slide" />
             <slidelink slideid="_player.5cirhyX0dcl.5lgUBjLdIfj" displaytext="Slecht" expand="false" type="slide" />
             <slidelink slideid="_player.5cirhyX0dcl.69xL5PsPg4v" displaytext="Gemiddeld" expand="false" type="slide" />
-          </links>
-        </slidelink>
-        <slidelink slideid="_player.6qX3QqUhzR9" displaytext="Afbeeldoing voor rapport" expand="true" type="slide">
-          <links>
-            <slidelink slideid="_player.6qX3QqUhzR9.6cp7eMEjSl0" displaytext="Afbeeldingen voor rapport" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
